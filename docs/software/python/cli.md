@@ -399,13 +399,15 @@ To create to a file with the connected device's configuration, this command's ou
 **Usage**
 
 ``` shell
-meshtastic --export-config > example_config.yaml
-```
-**Usage**
-
-``` shell
 meshtastic --export-config
 ```
+
+**Usage - file output**
+
+``` shell
+meshtastic --export-config > example_config.yaml
+```
+
 
 ### --support
 
